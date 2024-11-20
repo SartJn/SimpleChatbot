@@ -30,3 +30,4 @@ print(output['choices'][0]['text'])
 with open("response.txt", "a") as f:
   f.write(f"Time: {duration}")
   f.write(output['choices'][0]['text'])
+  #sarthak
